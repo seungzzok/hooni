@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Reviews.css" />
+    <script src="Reviews.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/26710bafb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Reviews</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">Our Reviews</div>
+      <div class="underBar"></div>
+    </header>
+    <content>
+      <section class="profile">
+        <div class="profile_bg"></div>
+        <div class="img_bg">
+          <img src="img/Jennie.jpg" alt="" id="profile_img" />
+        </div>
+        <div class="imoticon">
+          <i class="fa-solid fa-quote-right"></i>
+        </div>
+      </section>
+      <section class="text">
+        <div id="name">Jennie</div>
+        <div id="job">Main Rapper</div>
+        <div id="info">안녕하세요 제니입니다.</div>
+      </section>
+      <section class="btn">
+        <div class="btn_container">
+          <button id="left" onclick="previous()">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="right" onclick="next()">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <button id="random_btn" onclick="random()">Surprise Me</button>
+      </section>
+    </content>
+  </body>
+</html>
